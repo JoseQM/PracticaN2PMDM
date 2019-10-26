@@ -52,8 +52,8 @@
         android:id="@+id/radioGroup"
         android:layout_width="188dp"
         android:layout_height="80dp"
-        android:layout_marginStart="260dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="72dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -72,23 +72,23 @@
 
     <Spinner
         android:id="@+id/listaEstados"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="148dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="459dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txtGenerado"
         android:layout_width="313dp"
         android:layout_height="64dp"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="212dp"
         android:text="@string/txtGenerado"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -96,8 +96,8 @@
         android:id="@+id/switchHijos"
         android:layout_width="150dp"
         android:layout_height="34dp"
-        android:layout_marginStart="288dp"
-        android:layout_marginTop="204dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="168dp"
         android:text="@string/switchHijos"
         android:textOff="@string/switchNo"
         android:textOn="@string/switchSi"
@@ -109,7 +109,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="260dp"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="284dp"
         android:text="@string/btnGenerar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -118,7 +118,7 @@
         android:id="@+id/btnLimpiar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="284dp"
         android:layout_marginEnd="260dp"
         android:text="@string/btnLimpiar"
         app:layout_constraintEnd_toEndOf="parent"
