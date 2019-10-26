@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Datos Personales</string>
+
+    <string name="txtName">Introduzca su nombre</string>
+    <string name="txtLastName">Introduzca su apellido</string>
+    <string name="txtAge">Introduzca su edad</string>
+
+    <string name="rbtnMale">Hombre</string>
+    <string name="rbtnFemale">Mujer</string>
+
+    <string name="txtGenerado"></string>
+    <string name="switchHijos">¿Tiene hijos?</string>
+
+    <string name="switchSi">Si</string>
+    <string name="switchNo">No</string>
+
+    <string name="btnGenerar">Generar</string>
+    <string name="btnLimpiar">Limpiar</string>
+
+    <string name="seleccionaEstado">ESTADO CIVIL</string>
+    <string name="soltero">Soltero/a</string>
+    <string name="casado">Casado/a</string>
+    <string name="viudo">Viudo/a</string>
+    <string name="otro">Otro</string>
+
+    <string-array name="estadoCivil">
+        <item>@string/seleccionaEstado</item>
+        <item>@string/soltero</item>
+        <item>@string/casado</item>
+        <item>@string/viudo</item>
+        <item>@string/otro</item>
+    </string-array>
+
+    <string name="fNombre">[FALTA NOMBRE]</string>
+    <string name="fApellido">[FALTA APELLIDO]</string>
+    <string name="fEdad">[FALTA EDAD]</string>
+    <string name="fCivil">[FALTA ESTADO CIVIL]</string>
+    <string name="fGenero">[FALTA GÉNERO]</string>
+
+
+    <string name="menorEdad">[MISSING CIVIL STATUS]</string>
+    <string name="mayorEdad">[MISSING GENRE]</string>
+    <string name="conHijos">y con hijos</string>
+    <string name="sinHijos">y sin hijos</string>
+
+
+
+</resources>

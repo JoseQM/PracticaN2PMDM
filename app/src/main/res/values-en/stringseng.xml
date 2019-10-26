@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personal Data</string>
+
+    <string name="txtName">Type your name</string>
+    <string name="txtLastName">Type your lastname</string>
+    <string name="txtAge">Type your age</string>
+
+    <string name="rbtnMale">Male</string>
+    <string name="rbtnFemale">Female</string>
+
+    <string name="txtGenerado"></string>
+    <string name="switchHijos">Have children?</string>
+
+    <string name="switchSi">Yes</string>
+    <string name="switchNo">No</string>
+
+    <string name="btnGenerar">Generate</string>
+    <string name="btnLimpiar">Reset</string>
+
+    <string name="seleccionaEstado">CIVIL STATUS</string>
+    <string name="soltero">Single</string>
+    <string name="casado">Married</string>
+    <string name="viudo">Widower</string>
+    <string name="otro">Other</string>
+
+    <string-array name="estadoCivil">
+        <item>@string/seleccionaEstado</item>
+        <item>@string/soltero</item>
+        <item>@string/casado</item>
+        <item>@string/viudo</item>
+        <item>@string/otro</item>
+    </string-array>
+
+    <string name="fNombre">[MISSING NAME]</string>
+    <string name="fApellido">[MISSING LASTNAME]</string>
+    <string name="fEdad">[MISSING AGE]</string>
+    <string name="fCivil">[MISSING CIVIL STATUS]</string>
+    <string name="fGenero">[MISSING GENRE]</string>
+
+    <string name="menorEdad">Adult</string>
+    <string name="mayorEdad">Younger</string>
+    <string name="conHijos">and with kids</string>
+    <string name="sinHijos">and without kids</string>
+
+
+
+</resources>
