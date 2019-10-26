@@ -36,9 +36,6 @@ public class MainActivity extends AppCompatActivity
 
     Switch switchHijos;
 
-    boolean hijos;
-    boolean checked;
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -79,15 +76,11 @@ public class MainActivity extends AppCompatActivity
                 String radioSeleccion = "";
                 String estadoCivil = "";
                 int miEdad;
-
-                //Cojer valor string de opcion spinner seleccionada
-
+                boolean hijos;
+                boolean checked;
 
                 checked = eleccionGenero(rbtnHombre, rbtnMujer);
                 hijos = hijosSiNo(switchHijos);
-
-                //Locale.getDefault().getLanguage().equals("en");
-
 
                 //Comprobar si algun campo esta vacio || ESPAÑOL
                 if (txtNombre.getText().toString().isEmpty() || txtNombre.equals("") || txtNombre.length() == 0)
@@ -122,7 +115,6 @@ public class MainActivity extends AppCompatActivity
                     try
                     {
                         miEdad = Integer.parseInt(txtEdad.getText().toString());
-                        //radioSeleccion = switchHijos
 
                         if (rbtnHombre.isChecked())
                         {
