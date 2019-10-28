@@ -38,8 +38,8 @@
     <string name="fGenero">[FALTA GÉNERO]</string>
 
 
-    <string name="menorEdad">[MISSING CIVIL STATUS]</string>
-    <string name="mayorEdad">[MISSING GENRE]</string>
+    <string name="menorEdad">menor de edad</string>
+    <string name="mayorEdad">mayor de edad</string>
     <string name="conHijos">y con hijos</string>
     <string name="sinHijos">y sin hijos</string>
 

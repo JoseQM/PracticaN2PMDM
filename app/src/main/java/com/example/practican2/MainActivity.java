@@ -144,11 +144,11 @@ public class MainActivity extends AppCompatActivity
                         {
                             if (hijos == true)
                             {
-                                txtGenerado.setText(apellido + ", " + nombre + ", " + getString(R.string.mayorEdad) + ", " + radioSeleccion + " " + estadoCivil + " " + getString(R.string.conHijos));
+                                txtGenerado.setText(apellido + ", " + nombre + ", " + getString(R.string.menorEdad) + ", " + radioSeleccion + " " + estadoCivil + " " + getString(R.string.conHijos));
                                 txtGenerado.setTextColor(getResources().getColor(R.color.negro, null));
                             } else
                                 {
-                                txtGenerado.setText(apellido + ", " + nombre + ", menor de edad, " + radioSeleccion + ", " + estadoCivil + " " + getString(R.string.sinHijos));
+                                txtGenerado.setText(apellido + ", " + nombre + ", " + getString(R.string.menorEdad) + ", " + radioSeleccion + ", " + estadoCivil + " " + getString(R.string.sinHijos));
                                 txtGenerado.setTextColor(getResources().getColor(R.color.negro, null));
                             }
                         }
