@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity
                     txtGenerado.setText(getString(R.string.fGenero));
                     txtGenerado.setTextColor(getResources().getColor(R.color.rojo, null));
                 }
-                else if (spn1.getSelectedItem().toString().equals("CIVIL STATUS") || spn1.getSelectedItem().toString().equals("ESTADO CIVIL"))
+                else if (spn1.getSelectedItem().toString().equals(getString(R.string.seleccionaEstado)))
                 {
                     //R.string.seleccionaEstado;
                     txtGenerado.setText(R.string.fCivil);
@@ -185,11 +185,7 @@ public class MainActivity extends AppCompatActivity
 
         boolean checked = false;
 
-        if (rbtnHombre.isChecked())
-        {
-            checked = true;
-        }
-        else if (rbtnMujer.isChecked())
+        if (rbtnHombre.isChecked() || rbtnMujer.isChecked())
         {
             checked = true;
         }
