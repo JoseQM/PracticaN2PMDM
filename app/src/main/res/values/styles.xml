@@ -1,5 +1,4 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -8,4 +7,122 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    //Style Botón Generar
+    <style name="buttonGenerar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/btnMarginStartGenerar</item>
+        <item name="android:layout_marginTop">@dimen/btnMarginTopGenerar</item>
+        <item name="android:text">@string/btnGenerar</item>
+        <item name="android:fontFamily">@font/euforia</item>
+        <item name="android:textColor">@color/morado</item>
+        <item name="android:background">@color/negro</item>
+    </style>
+
+
+    //Style Botón Limpiar
+    <style name="buttonLimpiar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/btnMarginEndLimpiar</item>
+        <item name="android:layout_marginTop">@dimen/btnMarginTopLimpiar</item>
+        <item name="android:text">@string/btnLimpiar</item>
+        <item name="android:fontFamily">@font/euforia</item>
+        <item name="android:textColor">@color/morado</item>
+        <item name="android:background">@color/negro</item>
+    </style>
+
+
+    //TextView Nombre
+    <style name="txtViewNombre">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/txtMarginStartNombre</item>
+        <item name="android:layout_marginTop">@dimen/txtMarginTopNombre</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">@string/txtName</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:digits"> abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ</item>
+        <item name="android:fontFamily">@font/sanddael</item>
+    </style>
+
+
+    //TextView Apellido
+    <style name="txtViewApellido">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/txtMarginStartApellido</item>
+        <item name="android:layout_marginTop">@dimen/txtMarginTopApellido</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">@string/txtLastName</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:digits"> abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ</item>
+        <item name="android:fontFamily">@font/sanddael</item>
+    </style>
+
+
+    //TextView Edad
+    <style name="txtViewEdad">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/txtMarginEnd</item>
+        <item name="android:layout_marginTop">@dimen/txtMarginTopEdad</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">@string/txtAge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">number</item>
+        <item name="android:fontFamily">@font/sanddael</item>
+    </style>
+
+
+    //TextView Generado
+    <style name="txtGenerado">
+        <item name="android:layout_width">@dimen/txtLayoutWidthGenerar</item>
+        <item name="android:layout_height">@dimen/txtLayoutHeightGenerar</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginBottom">164dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/sanddael</item>
+
+    </style>
+
+
+    //Switch
+    <style name="switchHijos">
+        <item name="android:layout_height">@dimen/switchLayoutHeight</item>
+        <item name="android:layout_marginStart">@dimen/switchMarginStart</item>
+        <item name="android:layout_marginBottom">@dimen/switchMarginBottom</item>
+        <item name="android:layout_width">@dimen/switchLayoutWidth</item>
+        <item name="android:fontFamily">@font/sanddael</item>
+    </style>
+
+
+    //Spinner
+    <style name="spinner">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/spinnerLayoutWidth</item>
+        <item name="android:layout_marginBottom">@dimen/spinnerLayoutMarginBottom</item>
+        <item name="android:fontFamily">@font/sanddael</item>
+    </style>
+
+
+    //RadioGroup
+    <style name="radioGroup">
+        <item name="android:layout_height">@dimen/rgrLayoutHeight</item>
+        <item name="android:layout_width">@dimen/rgrLayoutWidth</item>
+        <item name="android:layout_marginTop">@dimen/rgrMarginTop</item>
+        <item name="android:layout_marginStart">@dimen/switchMarginStart</item>
+    </style>
+
+
+    //RadioButton
+    <style name="radioButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fontFamily">@font/sanddael</item>
+    </style>
 </resources>

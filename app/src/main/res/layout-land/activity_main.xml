@@ -27,7 +27,7 @@
         android:layout_marginStart="256dp"
         android:layout_marginTop="16dp"
         android:autofillHints="@string/txtLastName"
-        android:digits=" abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:digits=" abcdefghijklmñnopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
         android:ems="10"
         android:hint="@string/txtLastName"
         android:inputType="textCapSentences"

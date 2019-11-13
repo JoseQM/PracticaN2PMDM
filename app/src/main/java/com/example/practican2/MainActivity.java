@@ -3,21 +3,20 @@ package com.example.practican2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
+
 import android.view.View;
-import android.widget.AdapterView;
+
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.CompoundButton;
+
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import java.util.Locale;
+
 
 public class MainActivity extends AppCompatActivity
 {
@@ -43,7 +42,8 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         //Instanciar
-        txtNombre = (EditText)findViewById(R.id.txtNombre);
+
+        txtNombre = findViewById(R.id.txtNombre);
         txtApellido = (EditText)findViewById(R.id.txtApellido);
         txtEdad = (EditText)findViewById(R.id.txtEdad);
         txtGenerado = (TextView)findViewById(R.id.txtGenerado);
@@ -109,6 +109,9 @@ public class MainActivity extends AppCompatActivity
                     txtGenerado.setText(R.string.fCivil);
                     txtGenerado.setTextColor(getResources().getColor(R.color.rojo, null));
                 }
+
+
+
                 else
                     {
                     //Si no hay nada vacio, comprobar la edad y si tiene hijos
@@ -140,7 +143,8 @@ public class MainActivity extends AppCompatActivity
                                 txtGenerado.setText(apellido + ", " + nombre + ", " + getString(R.string.mayorEdad) + ", " + radioSeleccion + " " + estadoCivil + " " + getString(R.string.sinHijos));
                                 txtGenerado.setTextColor(getResources().getColor(R.color.negro, null));
                             }
-                        } else if (miEdad < 18)
+                        }
+                        else if (miEdad < 18)
                         {
                             if (hijos == true)
                             {
@@ -181,7 +185,8 @@ public class MainActivity extends AppCompatActivity
 
 
     //MÉTODO OBTENER SI HA ESCOGIDO GÉNERO
-    public boolean eleccionGenero(RadioButton rbtnHombre, RadioButton rbtnMujer){
+    public boolean eleccionGenero(RadioButton rbtnHombre, RadioButton rbtnMujer)
+    {
 
         boolean checked = false;
 

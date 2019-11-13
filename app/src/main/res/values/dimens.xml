@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    //TextView Nombre
+    <dimen name="txtMarginStartNombre">96dp</dimen>
+    <dimen name="txtMarginTopNombre">36dp</dimen>
+
+
+    //TextView Apellido
+    <dimen name="txtMarginStartApellido">96dp</dimen>
+    <dimen name="txtMarginTopApellido">100dp</dimen>
+
+
+    //TextView Edad
+    <dimen name="txtMarginEnd">96dp</dimen>
+    <dimen name="txtMarginTopEdad">156dp</dimen>
+
+    //TextView Generado
+    <dimen name="txtLayoutHeightGenerar">63dp</dimen>
+    <dimen name="txtLayoutWidthGenerar">377dp</dimen>
+    <dimen name="txtMarginStartGenerado">16dp</dimen>
+    <dimen name="txtMarginTopGenerado">508dp</dimen>
+
+
+    //RadioGroup
+    <dimen name="rgrLayoutHeight">80dp</dimen>
+    <dimen name="rgrLayoutWidth">188dp</dimen>
+    <dimen name="rgrMarginTop">232dp</dimen>
+    <dimen name="rgrMarginStart">108dp</dimen>
+
+
+    //Switch
+    <dimen name="switchLayoutHeight">0dp</dimen>
+    <dimen name="switchLayoutWidth">321dp</dimen>
+    <dimen name="switchMarginBottom">288dp</dimen>
+    <dimen name="switchMarginStart">66dp</dimen>
+
+
+    //Spinner
+    <dimen name="spinnerLayoutWidth">409dp</dimen>
+    <dimen name="spinnerLayoutMarginBottom">352dp</dimen>
+
+    //Botón Limpiar.
+    <dimen name="btnMarginEndLimpiar">112dp</dimen>
+    <dimen name="btnMarginTopLimpiar">612dp</dimen>
+
+    //Botón Generar.
+    <dimen name="btnMarginStartGenerar">104dp</dimen>
+    <dimen name="btnMarginTopGenerar">612dp</dimen>
+
+</resources>
