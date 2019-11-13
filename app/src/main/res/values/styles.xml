@@ -9,84 +9,70 @@
 
 
     //Style Botón Generar VERTICAL
-    <style name="buttonGenerar">
+    <style name="buttonGenerar" parent="estiloBotones">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/btnMarginStartGenerar</item>
         <item name="android:layout_marginTop">@dimen/btnMarginTopGenerar</item>
         <item name="android:text">@string/btnGenerar</item>
-        <item name="android:fontFamily">@font/euforia</item>
-        <item name="android:textColor">@color/morado</item>
-        <item name="android:background">@color/negro</item>
     </style>
 
 
     //Style Botón Limpiar VERTICAL
-    <style name="buttonLimpiar">
+    <style name="buttonLimpiar" parent="estiloBotones">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginEnd">@dimen/btnMarginEndLimpiar</item>
         <item name="android:layout_marginTop">@dimen/btnMarginTopLimpiar</item>
         <item name="android:text">@string/btnLimpiar</item>
-        <item name="android:fontFamily">@font/euforia</item>
-        <item name="android:textColor">@color/morado</item>
-        <item name="android:background">@color/negro</item>
     </style>
 
 
     //Style TextView Nombre VERTICAL
-    <style name="txtViewNombre">
+    <style name="txtViewNombre" parent="estiloTexto">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/txtMarginStartNombre</item>
         <item name="android:layout_marginTop">@dimen/txtMarginTopNombre</item>
         <item name="android:ems">10</item>
         <item name="android:hint">@string/txtName</item>
-        <item name="android:textStyle">bold</item>
         <item name="android:inputType">textCapSentences</item>
         <item name="android:digits"> abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ</item>
-        <item name="android:fontFamily">@font/sanddael</item>
     </style>
 
 
     //Style TextView Apellido VERTICAL
-    <style name="txtViewApellido">
+    <style name="txtViewApellido" parent="estiloTexto">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/txtMarginStartApellido</item>
         <item name="android:layout_marginTop">@dimen/txtMarginTopApellido</item>
         <item name="android:ems">10</item>
         <item name="android:hint">@string/txtLastName</item>
-        <item name="android:textStyle">bold</item>
         <item name="android:inputType">textCapSentences</item>
         <item name="android:digits"> abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ</item>
-        <item name="android:fontFamily">@font/sanddael</item>
     </style>
 
 
     //Style TextView Edad VERTICAL
-    <style name="txtViewEdad">
+    <style name="txtViewEdad" parent="estiloTexto">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/txtMarginEnd</item>
         <item name="android:layout_marginTop">@dimen/txtMarginTopEdad</item>
         <item name="android:ems">10</item>
         <item name="android:hint">@string/txtAge</item>
-        <item name="android:textStyle">bold</item>
         <item name="android:inputType">number</item>
-        <item name="android:fontFamily">@font/sanddael</item>
     </style>
 
 
-    //Style TextView Generado
-    <style name="txtGenerado">
+    //Style TextView Generado VERTICAL
+    <style name="txtGenerado" parent="estiloTexto">
         <item name="android:layout_width">@dimen/txtLayoutWidthGenerar</item>
         <item name="android:layout_height">@dimen/txtLayoutHeightGenerar</item>
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginBottom">164dp</item>
         <item name="android:ems">10</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:fontFamily">@font/sanddael</item>
     </style>
 
 
@@ -130,74 +116,58 @@
     //---------------------------- LAYOUT HORIZONTAL ------------------------------//
 
     //TextView Nombre HORIZONTAL
-    <style name="txtViewNombreH">
+    <style name="txtViewNombreH" parent="estiloTexto">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/txtMarginStartNombreH</item>
         <item name="android:layout_marginTop">@dimen/txtMarginTopNombreH</item>
         <item name="android:ems">10</item>
         <item name="android:hint">@string/txtName</item>
-        <item name="android:textStyle">bold</item>
         <item name="android:inputType">textCapSentences</item>
         <item name="android:digits"> abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ</item>
-        <item name="android:fontFamily">@font/sanddael</item>
+
     </style>
 
 
     //TextView Apellido HORIZONTAL
-    <style name="txtViewApellidoH">
+    <style name="txtViewApellidoH" parent="estiloTexto">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/txtMarginStartApellidoH</item>
         <item name="android:layout_marginTop">@dimen/txtMarginTopApellidoH</item>
         <item name="android:ems">10</item>
         <item name="android:hint">@string/txtLastName</item>
-        <item name="android:textStyle">bold</item>
         <item name="android:inputType">textCapSentences</item>
         <item name="android:digits"> abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ</item>
-        <item name="android:fontFamily">@font/sanddael</item>
     </style>
 
 
     //TextView EDAD HORIZONTAL
-    <style name="txtViewEdadH">
+    <style name="txtViewEdadH" parent="estiloTexto">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/txtMarginStartEdadH</item>
         <item name="android:layout_marginTop">@dimen/txtMarginTopEdadH</item>
         <item name="android:ems">10</item>
         <item name="android:hint">@string/txtAge</item>
-        <item name="android:textStyle">bold</item>
         <item name="android:inputType">number</item>
-        <item name="android:fontFamily">@font/sanddael</item>
     </style>
 
 
-
-
-
     //Style Botón Generar HORIZONTAL
-    <style name="buttonGenerarH">
+    <style name="buttonGenerarH" parent="estiloBotones">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/btnMarginStartGenerarH</item>
         <item name="android:layout_marginBottom">@dimen/btnMarginBottomGenerarH</item>
-        <item name="android:text">@string/btnGenerar</item>
-        <item name="android:fontFamily">@font/euforia</item>
-        <item name="android:textColor">@color/morado</item>
-        <item name="android:background">@color/negro</item>
     </style>
 
     //Style Botón Limpiar HORIZONTAL
-    <style name="buttonLimpiarH">
+    <style name="buttonLimpiarH" parent="estiloBotones">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginEnd">@dimen/btnMarginEndLimpiarH</item>
         <item name="android:layout_marginBottom">@dimen/btnMarginBottomGenerarH</item>
-        <item name="android:text">@string/btnLimpiar</item>
-        <item name="android:fontFamily">@font/euforia</item>
-        <item name="android:textColor">@color/morado</item>
-        <item name="android:background">@color/negro</item>
     </style>
 
 
@@ -237,15 +207,25 @@
 
 
     //Style TextView Generado
-    <style name="txtGeneradoH">
+    <style name="txtGeneradoH" parent="estiloTexto">
         <item name="android:layout_width">@dimen/txtLayoutWidthGenerarH</item>
         <item name="android:layout_height">@dimen/txtLayoutHeightGenerarH</item>
         <item name="android:layout_marginStart">@dimen/btnMarginStartGenerarH</item>
         <item name="android:layout_marginTop">@dimen/txtMarginTopGeneradoH</item>
         <item name="android:ems">10</item>
+    </style>
+
+
+    <style name="estiloBotones">
+        <item name="android:text">@string/btnGenerar</item>
+        <item name="android:fontFamily">@font/euforia</item>
+        <item name="android:textColor">@color/morado</item>
+        <item name="android:background">@color/negro</item>
+    </style>
+
+    <style name="estiloTexto">
         <item name="android:textStyle">bold</item>
         <item name="android:fontFamily">@font/sanddael</item>
-
     </style>
 
 </resources>
