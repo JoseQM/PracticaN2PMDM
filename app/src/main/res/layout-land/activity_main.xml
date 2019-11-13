@@ -9,84 +9,52 @@
 
     <EditText
         android:id="@+id/txtEdad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="500dp"
-        android:layout_marginTop="16dp"
-        android:autofillHints="@string/txtAge"
+        style="@style/txtViewEdadH"
         android:ems="10"
-        android:hint="@string/txtAge"
-        android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/txtApellido"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="256dp"
-        android:layout_marginTop="16dp"
-        android:autofillHints="@string/txtLastName"
-        android:digits=" abcdefghijklmñnopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+        style="@style/txtViewApellidoH"
         android:ems="10"
-        android:hint="@string/txtLastName"
-        android:inputType="textCapSentences"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/txtNombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:autofillHints="@string/txtName"
-        android:digits=" abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        style="@style/txtViewNombreH"
         android:ems="10"
-        android:hint="@string/txtName"
-        android:inputType="textCapSentences"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="188dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="72dp"
+        style="@style/radioGroupH"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
             android:id="@+id/rbtnHombre"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/radioButtonH"
             android:text="@string/rbtnMale" />
 
         <RadioButton
             android:id="@+id/rbtnMujer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/radioButtonH"
             android:text="@string/rbtnFemale" />
     </RadioGroup>
 
     <Spinner
         android:id="@+id/listaEstados"
-        android:layout_width="459dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="132dp"
-        android:layout_marginEnd="16dp"
+        style="@style/spinnerH"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txtGenerado"
-        android:layout_width="313dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="212dp"
+        style="@style/txtGeneradoH"
         android:text="@string/txtGenerado"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,10 +62,7 @@
 
     <Switch
         android:id="@+id/switchHijos"
-        android:layout_width="150dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="168dp"
+        style="@style/switchHijosH"
         android:text="@string/switchHijos"
         android:textOff="@string/switchNo"
         android:textOn="@string/switchSi"
@@ -106,22 +71,16 @@
 
     <Button
         android:id="@+id/btnGenerar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="260dp"
-        android:layout_marginTop="284dp"
+        style="@style/buttonGenerarH"
         android:text="@string/btnGenerar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnLimpiar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="284dp"
-        android:layout_marginEnd="260dp"
+        style="@style/buttonLimpiarH"
         android:text="@string/btnLimpiar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

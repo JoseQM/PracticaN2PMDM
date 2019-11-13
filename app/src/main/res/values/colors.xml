@@ -9,4 +9,6 @@
     <color name="verde">#97FF29</color>
     <color name="morado">#EF28FF</color>
     <color name="amarillo">#E0FF02</color>
+    <color name="blanco">#ffffff</color>
+    <color name="azul">#1bbae8</color>
 </resources>

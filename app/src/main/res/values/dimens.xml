@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
     //TextView Nombre
     <dimen name="txtMarginStartNombre">96dp</dimen>
     <dimen name="txtMarginTopNombre">36dp</dimen>
@@ -48,5 +47,56 @@
     //Botón Generar.
     <dimen name="btnMarginStartGenerar">104dp</dimen>
     <dimen name="btnMarginTopGenerar">612dp</dimen>
+
+
+    //---------------------------- LAYOUT HORIZONTAL ------------------------------//
+
+    //TextView Nombre HORIZONTAL
+    <dimen name="txtMarginStartNombreH">28dp</dimen>
+    <dimen name="txtMarginTopNombreH">16dp</dimen>
+
+    //TextView Apellido HORIZONTAL
+    <dimen name="txtMarginStartApellidoH">256dp</dimen>
+    <dimen name="txtMarginTopApellidoH">16dp</dimen>
+
+    //TextView Edad HORIZONTAL
+    <dimen name="txtMarginStartEdadH">484dp</dimen>
+    <dimen name="txtMarginTopEdadH">16dp</dimen>
+
+
+    //Botón Generar HORIZONTAL
+    <dimen name="btnMarginStartGenerarH">300dp</dimen>
+    <dimen name="btnMarginBottomGenerarH">20dp</dimen>
+
+
+    //Botón Generar HORIZONTAL
+    <dimen name="btnMarginEndLimpiarH">280dp</dimen>
+    <dimen name="btnMarginBottomLimpiarH">20dp</dimen>
+
+
+    //Spinner HORIZONTAL
+    <dimen name="spnWidthH">459dp</dimen>
+    <dimen name="spnHeightH">35dp</dimen>
+    <dimen name="spnMarginTopH">132dp</dimen>
+    <dimen name="spnMarginEndH">16dp</dimen>
+
+
+    //Switch HORIZONTAL
+    <dimen name="switchLayoutHeightH">34dp</dimen>
+    <dimen name="switchLayoutWidthH">150dp</dimen>
+    <dimen name="switchMarginTopH">168dp</dimen>
+    <dimen name="switchMarginStartH">48dp</dimen>
+
+    //RadioGroup HORIZONTAL
+    <dimen name="rgrLayoutHeightH">81dp</dimen>
+    <dimen name="rgrLayoutWidthH">184dp</dimen>
+    <dimen name="rgrMarginTopH">72dp</dimen>
+    <dimen name="rgrMarginStartH">28dp</dimen>
+
+    //TextView Generado
+    <dimen name="txtLayoutHeightGenerarH">64dp</dimen>
+    <dimen name="txtLayoutWidthGenerarH">313dp</dimen>
+    <dimen name="txtMarginStartGeneradoH">56dp</dimen>
+    <dimen name="txtMarginTopGeneradoH">212dp</dimen>
 
 </resources>
