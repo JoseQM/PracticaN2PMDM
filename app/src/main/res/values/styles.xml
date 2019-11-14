@@ -216,6 +216,7 @@
     </style>
 
 
+    //Temas
     <style name="estiloBotones">
         <item name="android:text">@string/btnGenerar</item>
         <item name="android:fontFamily">@font/euforia</item>
